@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#232323"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,6 +25,9 @@
       },
       "package": "com.niharwalawalkar.aora",
       "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO",
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.RECORD_AUDIO"
@@ -61,6 +66,12 @@
         "projectId": "e1d73bc9-9261-4877-a5ec-f393af151ed9"
       }
     },
-    "owner": "nihar14"
+    "owner": "nihar14",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e1d73bc9-9261-4877-a5ec-f393af151ed9"
+    }
   }
 }
