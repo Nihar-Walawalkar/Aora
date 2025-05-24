@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Aora",
+    "slug": "aora",
+    "scheme": "aora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-small.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo-small.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#232323"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-small.png",
+        "backgroundColor": "#232323"
+      },
+      "package": "com.niharwalawalkar.aora",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#232323",
+          "image": "./assets/images/logo-small.png",
+          "dark": {
+            "image": "./assets/images/logo-small.png",
+            "backgroundColor": "#232323"
+          },
+          "imageWidth": 100
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b0466d1c-33f7-4e84-ab74-5d2327087c99"
+      }
+    }
+  }
+}

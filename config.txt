@@ -1,0 +1,4 @@
+com.niharwalawalkar.aora
+
+API Endpoint: https://fra.cloud.appwrite.io/v1
+Project ID: 682c602a001a613b3443
